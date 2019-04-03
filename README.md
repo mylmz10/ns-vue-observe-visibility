@@ -4,6 +4,10 @@ Detect when an element is becoming visible or hidden in the ScrollView element f
 
 This project created for using <a href="https://github.com/Akryum/vue-observe-visibility/">vue-observe-visibility</a> plugin in NativeScript-Vue projects.
 
+This is only for ScrollView element yet.
+
+If you want to contribute to this project and make it better, your help is very welcome.
+
 # Installation
 
 ```
