@@ -1,0 +1,27 @@
+{
+  "name": "ns-vue-observe-visibility",
+  "description": "Detect when an element is becoming visible or hidden in the ScrollView element for NativeScript Vue project.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Muammer YILMAZ",
+    "email": "yilmaz.muammer@outlook.com"
+  },
+  "keywords": [
+    "nativescript",
+    "nativescript-vue",
+    "vue",
+    "vuejs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mylmz10/ns-vue-observe-visibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mylmz10/ns-vue-observe-visibility/issues"
+  },
+  "homepage": "https://github.com/mylmz10/ns-vue-observe-visibility#readme",
+  "devDependencies": {}
+}
