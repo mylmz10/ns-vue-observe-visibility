@@ -7,7 +7,7 @@ This project created for using <a href="https://github.com/Akryum/vue-observe-vi
 # Installation
 
 ```
-npm install --save vue-observe-visibility
+npm install --save git+https://github.com/mylmz10/ns-vue-observe-visibility.git
 ```
 
 # Import
