@@ -19,13 +19,18 @@ function processOptions(value) {
 }
 
 function isVisible(nativeView, scrollview) {
-  const scrollWidth = scrollview.nativeView.getActualSize().width;
+  try {
+    const scrollWidth = scrollview.nativeView.getActualSize().width;
 
-  const itemOffsetLeft = nativeView.getLocationRelativeTo(scrollview.nativeView).x;
-
-  const itemWidth = nativeView.getActualSize().width;
-
-  return itemOffsetLeft + itemWidth >= 0 && itemOffsetLeft <= scrollWidth;
+    const itemOffsetLeft = nativeView.getLocationRelativeTo(scrollview.nativeView).x;
+  
+    const itemWidth = nativeView.getActualSize().width;
+  
+    return itemOffsetLeft + itemWidth >= 0 && itemOffsetLeft <= scrollWidth;
+  } catch (ex) {
+    console.error('[NS-VUE-OBSERVE-VISIBILITY] Error on function isVisible: ', ex.message);
+    return false;
+  }
 }
 
 function onScroll() {
